@@ -17,7 +17,7 @@
   const FLIP_DELAY_MS = 150;
   const FRAMEWORK_MAX_LENGTH = 15;
   const VERSION_MAX_LENGTH = 4;
-  const STATUS_MAX_LENGTH = 8;
+  const STATUS_MAX_LENGTH = 9;
   const DATE_MAX_LENGTH = 15;
   const PLACEHOLDER = " ";
 
