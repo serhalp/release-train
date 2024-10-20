@@ -15,9 +15,6 @@
 
   const ALPHABET = " -.ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   const FLIP_DELAY_MS = 150;
-  const CLACK_SOUND_VOLUME = 0.25;
-  const CLACK_SOUND_FREQUENCY = 200;
-  const CLACK_SOUND_DURATION_MS = 50;
   const FRAMEWORK_MAX_LENGTH = 15;
   const VERSION_MAX_LENGTH = 4;
   const STATUS_MAX_LENGTH = 8;
@@ -35,50 +32,6 @@
     status: PLACEHOLDER.repeat(STATUS_MAX_LENGTH),
     date: PLACEHOLDER.repeat(DATE_MAX_LENGTH),
   };
-
-  class ClackSound {
-    #audioCtx: AudioContext;
-    #gainNode: GainNode;
-    #oscillator: OscillatorNode;
-    #envelope: GainNode;
-
-    constructor() {
-      this.#audioCtx = new AudioContext();
-
-      this.#gainNode = this.#audioCtx.createGain();
-      this.#gainNode.gain.value = CLACK_SOUND_VOLUME;
-
-      this.#oscillator = this.#audioCtx.createOscillator();
-      this.#oscillator.type = "triangle";
-      this.#oscillator.frequency.value = CLACK_SOUND_FREQUENCY;
-      this.#oscillator.connect(this.#gainNode);
-
-      this.#envelope = this.#audioCtx.createGain();
-      this.#oscillator.connect(this.#envelope);
-      this.#envelope.connect(this.#gainNode);
-
-      this.#gainNode.connect(this.#audioCtx.destination);
-    }
-    start(durationMs: number): void {
-      this.#envelope.gain.value = 1;
-      this.#oscillator.start();
-
-      this.#envelope.gain.exponentialRampToValueAtTime(
-        0.01,
-        this.#audioCtx.currentTime + durationMs / 1000,
-      );
-    }
-    stop(): void {
-      this.#oscillator.stop();
-    }
-    static play(durationMs: number): void {
-      const clackSound = new ClackSound();
-      clackSound.start(durationMs);
-      setTimeout(() => {
-        clackSound.stop();
-      }, durationMs);
-    }
-  }
 
   function animateText(
     finalText: string,
@@ -101,7 +54,6 @@
         }
       }
 
-      ClackSound.play(CLACK_SOUND_DURATION_MS);
       setDisplayText(currentText.join(""));
     }, FLIP_DELAY_MS);
   }
