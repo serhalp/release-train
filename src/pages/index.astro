@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ScheduleBoard from "../components/ScheduleBoard.svelte";
+---
+
+<Layout title="Front-end framework release schedule">
+  <main>
+    <h1>Front-end framework release schedule</h1>
+    <ScheduleBoard client:visible />
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    width: 95%;
+
+    color: white;
+    line-height: 1.6;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #ffd700;
+    font-family: "Courier New", monospace;
+  }
+</style>

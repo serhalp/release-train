@@ -1,0 +1,62 @@
+[
+  {
+    "framework": "React",
+    "latest": {
+      "version": "18",
+      "status": "arrived",
+      "date": "2022-06-14"
+    },
+    "upcoming": {
+      "version": "19",
+      "status": "planned"
+    }
+  },
+  {
+    "framework": "Vue",
+    "latest": {
+      "version": "3",
+      "status": "arrived",
+      "date": "2023-01-01"
+    },
+    "upcoming": null
+  },
+  {
+    "framework": "Angular",
+    "latest": {
+      "version": "18",
+      "status": "arrived",
+      "date": "2024-05-22"
+    },
+    "upcoming": {
+      "version": "19",
+      "status": "on time",
+      "date": "2024-11-19"
+    }
+  },
+  {
+    "framework": "Svelte",
+    "latest": {
+      "version": "4",
+      "status": "arrived",
+      "date": "2022-06-22"
+    },
+    "upcoming": {
+      "version": "5",
+      "status": "arrived",
+      "date": "2024-10-19"
+    }
+  },
+  {
+    "framework": "Ember",
+    "latest": {
+      "version": "4",
+      "status": "arrived",
+      "date": "2022-01-01"
+    },
+    "upcoming": {
+      "version": "5",
+      "status": "delayed",
+      "date": "2023-01-01"
+    }
+  }
+]

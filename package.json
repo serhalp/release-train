@@ -1,0 +1,24 @@
+{
+  "name": "release-train",
+  "description": "Front-end framework release schedule",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "astro build",
+    "check": "astro check && svelte-check",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "start": "astro dev",
+    "test": "pnpm run check && pnpm run build"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^5.0.0",
+    "astro": "^4.15.3",
+    "svelte": "^4.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^20.2.5",
+    "svelte-check": "^4.0.5"
+  }
+}
