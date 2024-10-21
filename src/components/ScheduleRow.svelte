@@ -157,14 +157,14 @@
     color: #ffd700;
     font-family: "Courier New", monospace;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     background-color: #222;
   }
 
   @media (min-width: 480px) {
     .flip-char {
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       margin: 0 0.05rem;
       padding: 0 0.05rem;
       border-width: 0.05rem;
@@ -177,7 +177,7 @@
     }
 
     .flip-char {
-      font-size: 1rem;
+      font-size: 1.4rem;
       margin: 0 0.075rem;
       padding: 0 0.075rem;
       border-width: 0.075rem;
@@ -186,7 +186,7 @@
 
   @media (min-width: 1024px) {
     .flip-char {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       margin: 0 0.1rem;
       padding: 0 0.1rem;
       border-width: 0.1rem;
