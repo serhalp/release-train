@@ -3,7 +3,7 @@
   import ScheduleRow from "./ScheduleRow.svelte";
   import releaseData from "../data/releases.json";
 
-  let scheduleItems: typeof releaseData = [];
+  let scheduleItems: typeof releaseData = $state([]);
 
   onMount(async () => {
     scheduleItems = releaseData.toSorted((a, b) =>
