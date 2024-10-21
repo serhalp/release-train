@@ -1,17 +1,21 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  export let framework: string;
-  export let latest: {
+  interface Props {
+    framework: string;
+    latest: {
     version: string;
     status: string;
     date: string;
   };
-  export let upcoming: null | {
+    upcoming: null | {
     version: string;
     status: string;
     date?: string;
   };
+  }
+
+  let { framework, latest, upcoming }: Props = $props();
 
   const ALPHABET = " -.ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   const FLIP_DELAY_MS = 150;
@@ -21,17 +25,17 @@
   const DATE_MAX_LENGTH = 15;
   const PLACEHOLDER = " ";
 
-  let displayFramework = PLACEHOLDER.repeat(FRAMEWORK_MAX_LENGTH);
-  let displayLatest = {
+  let displayFramework = $state(PLACEHOLDER.repeat(FRAMEWORK_MAX_LENGTH));
+  let displayLatest = $state({
     version: PLACEHOLDER.repeat(VERSION_MAX_LENGTH),
     status: PLACEHOLDER.repeat(STATUS_MAX_LENGTH),
     date: PLACEHOLDER.repeat(DATE_MAX_LENGTH),
-  };
-  let displayUpcoming = {
+  });
+  let displayUpcoming = $state({
     version: PLACEHOLDER.repeat(VERSION_MAX_LENGTH),
     status: PLACEHOLDER.repeat(STATUS_MAX_LENGTH),
     date: PLACEHOLDER.repeat(DATE_MAX_LENGTH),
-  };
+  });
 
   function animateText(
     finalText: string,
