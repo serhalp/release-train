@@ -7,7 +7,7 @@ station split-flap display](https://en.wikipedia.org/wiki/Split-flap_display) fo
 
 This is an Astro site. It uses Svelte 4 for interactivity.
 
-It is deployed to Netify.
+It is deployed to Netlify.
 
 It uses the PNPM package manager.
 
