@@ -15,7 +15,7 @@
 
   const ALPHABET = " -.ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   const FLIP_DELAY_MS = 150;
-  const FRAMEWORK_MAX_LENGTH = 15;
+  const FRAMEWORK_MAX_LENGTH = 13;
   const VERSION_MAX_LENGTH = 4;
   const STATUS_MAX_LENGTH = 9;
   const DATE_MAX_LENGTH = 15;
@@ -96,28 +96,28 @@
 <div class="schedule-row-container">
   <div class="schedule-row">
     {#each displayFramework.split("") as char}
-      <span class="flip-char">{char}</span>
+      <span class="flip-char framework-name">{char}</span>
     {/each}
     {#each displayLatest.version.split("") as char}
-      <span class="flip-char">{char}</span>
+      <span class="flip-char release-version">{char}</span>
     {/each}
     {#each displayLatest.status.split("") as char}
-      <span class="flip-char">{char}</span>
+      <span class="flip-char release-status">{char}</span>
     {/each}
     {#each displayLatest.date.split("") as char}
-      <span class="flip-char">{char}</span>
+      <span class="flip-char release-date">{char}</span>
     {/each}
   </div>
   {#if upcoming != null}
     <div class="schedule-row">
       {#each displayUpcoming.version.split("") as char}
-        <span class="flip-char">{char}</span>
+        <span class="flip-char release-version">{char}</span>
       {/each}
       {#each displayUpcoming.status.split("") as char}
-        <span class="flip-char">{char}</span>
+        <span class="flip-char release-status">{char}</span>
       {/each}
       {#each displayUpcoming.date.split("") as char}
-        <span class="flip-char">{char}</span>
+        <span class="flip-char release-date">{char}</span>
       {/each}
     </div>
   {/if}
@@ -160,6 +160,16 @@
     font-size: 1rem;
     text-transform: uppercase;
     background-color: #222;
+  }
+
+  .framework-name,
+  .release-version {
+    color: #ffffff;
+  }
+
+  .release-status,
+  .release-date {
+    color: #ffd700;
   }
 
   @media (min-width: 480px) {
