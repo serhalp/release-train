@@ -17,7 +17,7 @@
     },
     "upcoming": {
       "version": "19",
-      "status": "arriving",
+      "status": "arrived",
       "date": "2024-11-19"
     }
   },
@@ -98,7 +98,8 @@
     },
     "upcoming": {
       "version": "15",
-      "status": "planned"
+      "status": "arrived",
+      "date": "2024-10-21"
     }
   },
   {
@@ -230,7 +231,7 @@
     },
     "upcoming": {
       "version": "6",
-      "status": "planned"
+      "status": "arriving"
     }
   },
   {
@@ -254,7 +255,7 @@
     },
     "upcoming": {
       "version": "2",
-      "status": "planned"
+      "status": "arriving"
     }
   }
 ]
