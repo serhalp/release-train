@@ -223,6 +223,13 @@
     }
   },
   {
+    "framework": "TanStack Start",
+    "latest": {
+      "version": "1",
+      "status": "arriving"
+    }
+  },
+  {
     "framework": "Vite",
     "latest": {
       "version": "5",
