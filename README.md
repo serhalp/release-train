@@ -5,7 +5,7 @@ station split-flap display](https://en.wikipedia.org/wiki/Split-flap_display) fo
 
 ## Development
 
-This is an Astro site. It uses Svelte 4 for interactivity.
+This is an Astro site. It uses Svelte 5 for interactivity.
 
 It is deployed to Netlify.
 
