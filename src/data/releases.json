@@ -231,7 +231,8 @@
     },
     "upcoming": {
       "version": "6",
-      "status": "arriving"
+      "status": "arrived",
+      "date": "2024-11-26"
     }
   },
   {
