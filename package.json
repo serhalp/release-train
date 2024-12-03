@@ -12,8 +12,8 @@
     "test": "pnpm run check && pnpm run build"
   },
   "dependencies": {
-    "@astrojs/svelte": "^6.0.0",
-    "astro": "^4.15.3",
+    "@astrojs/svelte": "^7.0.0",
+    "astro": "^5.0.0",
     "svelte": "^5.0.0"
   },
   "devDependencies": {
