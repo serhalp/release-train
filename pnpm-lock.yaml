@@ -26,7 +26,7 @@ importers:
         version: 20.17.10
       svelte-check:
         specifier: ^4.0.5
-        version: 4.1.1(picomatch@4.0.2)(svelte@5.17.4)(typescript@5.6.3)
+        version: 4.1.4(picomatch@4.0.2)(svelte@5.17.4)(typescript@5.6.3)
 
 packages:
 
@@ -847,6 +847,10 @@ packages:
     resolution: {integrity: sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==}
     engines: {node: '>= 14.16.0'}
 
+  chokidar@4.0.3:
+    resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
+    engines: {node: '>= 14.16.0'}
+
   ci-info@4.1.0:
     resolution: {integrity: sha512-HutrvTNsF48wnxkzERIXOe5/mlcfFcbfCmwcg6CJnizbSue78AbDt+1cgl26zwn61WFxhcPykPfZrbqjGmBb4A==}
     engines: {node: '>=8'}
@@ -1509,6 +1513,10 @@ packages:
     resolution: {integrity: sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==}
     engines: {node: '>= 14.16.0'}
 
+  readdirp@4.1.1:
+    resolution: {integrity: sha512-h80JrZu/MHUZCyHu5ciuoI0+WxsCxzxJTILn6Fs8rxSnFPh+UVHYfeIxK1nVGugMqkfC4vJcBOYbkfkwYK0+gw==}
+    engines: {node: '>= 14.18.0'}
+
   regex-recursion@5.1.1:
     resolution: {integrity: sha512-ae7SBCbzVNrIjgSbh7wMznPcQel1DNlDtzensnFxpiNpXt1U2ju/bHugH422r+4LAVS1FpW1YCwilmnNsjum9w==}
 
@@ -1639,8 +1647,8 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  svelte-check@4.1.1:
-    resolution: {integrity: sha512-NfaX+6Qtc8W/CyVGS/F7/XdiSSyXz+WGYA9ZWV3z8tso14V2vzjfXviKaTFEzB7g8TqfgO2FOzP6XT4ApSTUTw==}
+  svelte-check@4.1.4:
+    resolution: {integrity: sha512-v0j7yLbT29MezzaQJPEDwksybTE2Ups9rUxEXy92T06TiA0cbqcO8wAOwNUVkFW6B0hsYHA+oAX3BS8b/2oHtw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -2845,6 +2853,10 @@ snapshots:
     dependencies:
       readdirp: 4.0.2
 
+  chokidar@4.0.3:
+    dependencies:
+      readdirp: 4.1.1
+
   ci-info@4.1.0: {}
 
   cli-boxes@3.0.0: {}
@@ -3719,6 +3731,8 @@ snapshots:
 
   readdirp@4.0.2: {}
 
+  readdirp@4.1.1: {}
+
   regex-recursion@5.1.1:
     dependencies:
       regex: 5.1.1
@@ -3944,10 +3958,10 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  svelte-check@4.1.1(picomatch@4.0.2)(svelte@5.17.4)(typescript@5.6.3):
+  svelte-check@4.1.4(picomatch@4.0.2)(svelte@5.17.4)(typescript@5.6.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
-      chokidar: 4.0.1
+      chokidar: 4.0.3
       fdir: 6.4.2(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
