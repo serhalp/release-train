@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@astrojs/svelte':
         specifier: ^7.0.0
-        version: 7.0.9(@types/node@20.17.28)(astro@5.6.1(@types/node@20.17.28)(rollup@4.39.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.25.3)(typescript@5.6.3)(yaml@2.6.0)
+        version: 7.0.9(@types/node@20.17.28)(astro@5.6.1(@types/node@20.17.28)(rollup@4.39.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.25.7)(typescript@5.6.3)(yaml@2.6.0)
       astro:
         specifier: ^5.0.0
         version: 5.6.1(@types/node@20.17.28)(rollup@4.39.0)(typescript@5.6.3)(yaml@2.6.0)
       svelte:
         specifier: ^5.0.0
-        version: 5.25.3
+        version: 5.25.7
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
@@ -26,7 +26,7 @@ importers:
         version: 20.17.28
       svelte-check:
         specifier: ^4.0.5
-        version: 4.1.4(picomatch@4.0.2)(svelte@5.25.3)(typescript@5.6.3)
+        version: 4.1.4(picomatch@4.0.2)(svelte@5.25.7)(typescript@5.6.3)
 
 packages:
 
@@ -847,8 +847,8 @@ packages:
   esm-env@1.2.2:
     resolution: {integrity: sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==}
 
-  esrap@1.4.5:
-    resolution: {integrity: sha512-CjNMjkBWWZeHn+VX+gS8YvFwJ5+NDhg8aWZBSFJPR8qQduDNjbJodA2WcwCm7uQa5Rjqj+nZvVmceg1RbHFB9g==}
+  esrap@1.4.6:
+    resolution: {integrity: sha512-F/D2mADJ9SHY3IwksD4DAXjTt7qt7GWUf3/8RhCNWmC/67tyb55dpimHmy7EplakFaflV0R/PC+fdSPqrRHAQw==}
 
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
@@ -1447,8 +1447,8 @@ packages:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
       typescript: ^4.9.4 || ^5.0.0
 
-  svelte@5.25.3:
-    resolution: {integrity: sha512-J9rcZ/xVJonAoESqVGHHZhrNdVbrCfkdB41BP6eiwHMoFShD9it3yZXApVYMHdGfCshBsZCKsajwJeBbS/M1zg==}
+  svelte@5.25.7:
+    resolution: {integrity: sha512-0fzXbXaKfSvFUs6Wxev2h4CoEhexZotbTF9EJ4+Cg7MHW64ZnZ9+xUedZyEpgj0Tt9HrYGv9aASHkqjn9b/cPw==}
     engines: {node: '>=18'}
 
   tinyexec@0.3.2:
@@ -1919,12 +1919,12 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/svelte@7.0.9(@types/node@20.17.28)(astro@5.6.1(@types/node@20.17.28)(rollup@4.39.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.25.3)(typescript@5.6.3)(yaml@2.6.0)':
+  '@astrojs/svelte@7.0.9(@types/node@20.17.28)(astro@5.6.1(@types/node@20.17.28)(rollup@4.39.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.25.7)(typescript@5.6.3)(yaml@2.6.0)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
       astro: 5.6.1(@types/node@20.17.28)(rollup@4.39.0)(typescript@5.6.3)(yaml@2.6.0)
-      svelte: 5.25.3
-      svelte2tsx: 0.7.35(svelte@5.25.3)(typescript@5.6.3)
+      svelte: 5.25.7
+      svelte2tsx: 0.7.35(svelte@5.25.7)(typescript@5.6.3)
       typescript: 5.6.3
       vite: 6.2.5(@types/node@20.17.28)(yaml@2.6.0)
     transitivePeerDependencies:
@@ -2284,23 +2284,23 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0)))(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0)))(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
       debug: 4.4.0
-      svelte: 5.25.3
+      svelte: 5.25.7
       vite: 6.2.5(@types/node@20.17.28)(yaml@2.6.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0)))(svelte@5.25.3)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0)))(svelte@5.25.7)(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
-      svelte: 5.25.3
+      svelte: 5.25.7
       vite: 6.2.5(@types/node@20.17.28)(yaml@2.6.0)
       vitefu: 1.0.6(vite@6.2.5(@types/node@20.17.28)(yaml@2.6.0))
     transitivePeerDependencies:
@@ -2684,7 +2684,7 @@ snapshots:
 
   esm-env@1.2.2: {}
 
-  esrap@1.4.5:
+  esrap@1.4.6:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
@@ -3567,26 +3567,26 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  svelte-check@4.1.4(picomatch@4.0.2)(svelte@5.25.3)(typescript@5.6.3):
+  svelte-check@4.1.4(picomatch@4.0.2)(svelte@5.25.7)(typescript@5.6.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
       fdir: 6.4.2(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.25.3
+      svelte: 5.25.7
       typescript: 5.6.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte2tsx@0.7.35(svelte@5.25.3)(typescript@5.6.3):
+  svelte2tsx@0.7.35(svelte@5.25.7)(typescript@5.6.3):
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
-      svelte: 5.25.3
+      svelte: 5.25.7
       typescript: 5.6.3
 
-  svelte@5.25.3:
+  svelte@5.25.7:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -3597,7 +3597,7 @@ snapshots:
       axobject-query: 4.1.0
       clsx: 2.1.1
       esm-env: 1.2.2
-      esrap: 1.4.5
+      esrap: 1.4.6
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.17
