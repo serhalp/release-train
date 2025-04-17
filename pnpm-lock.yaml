@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/svelte':
         specifier: ^7.0.0
-        version: 7.0.10(@types/node@20.17.30)(astro@5.7.2(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.27.0)(typescript@5.6.3)(yaml@2.6.0)
+        version: 7.0.10(@types/node@20.17.30)(astro@5.7.3(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.27.0)(typescript@5.6.3)(yaml@2.6.0)
       astro:
         specifier: ^5.0.0
-        version: 5.7.2(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0)
+        version: 5.7.3(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0)
       svelte:
         specifier: ^5.0.0
         version: 5.27.0
@@ -662,8 +662,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.7.2:
-    resolution: {integrity: sha512-h/+MjrirU2xT+khkxvwPxE7c1O4nxzVtuSnGIqx+3dtrmUoxJvnNeIBnO7ED0mWzo6ClZ4aVBQj63M7U47anLg==}
+  astro@5.7.3:
+    resolution: {integrity: sha512-2b/OOS/A6GO4QP94x6oRzwTfXabFqE2rlUbbi42o6wZm9+zzcOc6VRFAq4lTOEI/iCrEVl3wTdBAC5X3h3Es+Q==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1706,8 +1706,8 @@ packages:
       yaml:
         optional: true
 
-  vite@6.3.0:
-    resolution: {integrity: sha512-9aC0n4pr6hIbvi1YOpFjwQ+QOTGssvbJKoeYkuHHGWwlXfdxQlI8L2qNMo9awEEcCPSiS+5mJZk5jH1PAqoDeQ==}
+  vite@6.3.1:
+    resolution: {integrity: sha512-kkzzkqtMESYklo96HKKPE5KKLkC1amlsqt+RjFMlX2AvbRB/0wghap19NdBxxwGZ+h/C6DLCrcEphPIItlGrRQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1942,8 +1942,8 @@ packages:
       typescript: ^4.9.4 || ^5.0.2
       zod: ^3
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.24.3:
+    resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -2025,10 +2025,10 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/svelte@7.0.10(@types/node@20.17.30)(astro@5.7.2(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.27.0)(typescript@5.6.3)(yaml@2.6.0)':
+  '@astrojs/svelte@7.0.10(@types/node@20.17.30)(astro@5.7.3(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.27.0)(typescript@5.6.3)(yaml@2.6.0)':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.27.0)(vite@6.2.6(@types/node@20.17.30)(yaml@2.6.0))
-      astro: 5.7.2(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0)
+      astro: 5.7.3(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0)
       svelte: 5.27.0
       svelte2tsx: 0.7.36(svelte@5.27.0)(typescript@5.6.3)
       typescript: 5.6.3
@@ -2536,7 +2536,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.7.2(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0):
+  astro@5.7.3(@types/node@20.17.30)(rollup@4.40.0)(typescript@5.6.3)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -2589,14 +2589,14 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.3.0(@types/node@20.17.30)(yaml@2.6.0)
-      vitefu: 1.0.6(vite@6.3.0(@types/node@20.17.30)(yaml@2.6.0))
+      vite: 6.3.1(@types/node@20.17.30)(yaml@2.6.0)
+      vitefu: 1.0.6(vite@6.3.1(@types/node@20.17.30)(yaml@2.6.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.1
-      zod: 3.24.2
-      zod-to-json-schema: 3.24.5(zod@3.24.2)
-      zod-to-ts: 1.2.0(typescript@5.6.3)(zod@3.24.2)
+      zod: 3.24.3
+      zod-to-json-schema: 3.24.5(zod@3.24.3)
+      zod-to-ts: 1.2.0(typescript@5.6.3)(zod@3.24.3)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -3913,7 +3913,7 @@ snapshots:
       fsevents: 2.3.3
       yaml: 2.6.0
 
-  vite@6.3.0(@types/node@20.17.30)(yaml@2.6.0):
+  vite@6.3.1(@types/node@20.17.30)(yaml@2.6.0):
     dependencies:
       esbuild: 0.25.2
       fdir: 6.4.3(picomatch@4.0.2)
@@ -3930,9 +3930,9 @@ snapshots:
     optionalDependencies:
       vite: 6.2.6(@types/node@20.17.30)(yaml@2.6.0)
 
-  vitefu@1.0.6(vite@6.3.0(@types/node@20.17.30)(yaml@2.6.0)):
+  vitefu@1.0.6(vite@6.3.1(@types/node@20.17.30)(yaml@2.6.0)):
     optionalDependencies:
-      vite: 6.3.0(@types/node@20.17.30)(yaml@2.6.0)
+      vite: 6.3.1(@types/node@20.17.30)(yaml@2.6.0)
 
   volar-service-css@0.0.61(@volar/language-service@2.4.6):
     dependencies:
@@ -4117,15 +4117,15 @@ snapshots:
 
   zimmerframe@1.1.2: {}
 
-  zod-to-json-schema@3.24.5(zod@3.24.2):
+  zod-to-json-schema@3.24.5(zod@3.24.3):
     dependencies:
-      zod: 3.24.2
+      zod: 3.24.3
 
-  zod-to-ts@1.2.0(typescript@5.6.3)(zod@3.24.2):
+  zod-to-ts@1.2.0(typescript@5.6.3)(zod@3.24.3):
     dependencies:
       typescript: 5.6.3
-      zod: 3.24.2
+      zod: 3.24.3
 
-  zod@3.24.2: {}
+  zod@3.24.3: {}
 
   zwitch@2.0.4: {}
