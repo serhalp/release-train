@@ -1,0 +1,26 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+*.log*
+
+# environment variables
+.env*
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# Local Netlify folder
+.netlify
+
+# pnpm lockfile
+pnpm-lock.yaml
