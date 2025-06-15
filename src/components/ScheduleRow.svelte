@@ -4,15 +4,15 @@
   interface Props {
     framework: string;
     latest: {
-    version: string;
-    status: string;
-    date: string;
-  };
+      version: string;
+      status: string;
+      date: string;
+    };
     upcoming: null | {
-    version: string;
-    status: string;
-    date?: string;
-  };
+      version: string;
+      status: string;
+      date?: string;
+    };
   }
 
   let { framework, latest, upcoming }: Props = $props();

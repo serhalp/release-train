@@ -7,6 +7,7 @@
     "build": "astro build",
     "check": "astro check && svelte-check",
     "dev": "astro dev",
+    "format": "prettier --write .",
     "format:check": "prettier --check .",
     "preview": "astro preview",
     "start": "astro dev",
