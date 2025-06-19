@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/svelte':
         specifier: ^7.0.0
-        version: 7.1.0(@types/node@20.19.1)(astro@5.9.3(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.34.3)(typescript@5.6.3)(yaml@2.6.0)
+        version: 7.1.0(@types/node@20.19.1)(astro@5.10.0(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.34.3)(typescript@5.6.3)(yaml@2.6.0)
       astro:
         specifier: ^5.0.0
-        version: 5.9.3(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0)
+        version: 5.10.0(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0)
       svelte:
         specifier: ^5.0.0
         version: 5.34.3
@@ -427,8 +427,8 @@ packages:
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
 
-  '@rollup/pluginutils@5.1.4':
-    resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
+  '@rollup/pluginutils@5.2.0':
+    resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -680,8 +680,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.9.3:
-    resolution: {integrity: sha512-VReZrpUa/3rfeiVvsQ1A2M3ujDPI+pDGIYOMtXPEZwut8tZoEyealXXLjitgCsJ+3dunKGZbg4Eak6i+r0vniw==}
+  astro@5.10.0:
+    resolution: {integrity: sha512-g/t54kVzQnFVijs+GbbbX/NBAFTl/3yNAEA/AQYq4FumLLVv7n4BIF+jKhcPGn9iFGyT1Cjvr7KB/qYyNvHEIg==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1952,8 +1952,8 @@ packages:
       typescript: ^4.9.4 || ^5.0.2
       zod: ^3
 
-  zod@3.25.64:
-    resolution: {integrity: sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==}
+  zod@3.25.67:
+    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -2040,10 +2040,10 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/svelte@7.1.0(@types/node@20.19.1)(astro@5.9.3(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.34.3)(typescript@5.6.3)(yaml@2.6.0)':
+  '@astrojs/svelte@7.1.0(@types/node@20.19.1)(astro@5.10.0(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0))(svelte@5.34.3)(typescript@5.6.3)(yaml@2.6.0)':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.34.3)(vite@6.3.5(@types/node@20.19.1)(yaml@2.6.0))
-      astro: 5.9.3(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0)
+      astro: 5.10.0(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0)
       svelte: 5.34.3
       svelte2tsx: 0.7.39(svelte@5.34.3)(typescript@5.6.3)
       typescript: 5.6.3
@@ -2308,7 +2308,7 @@ snapshots:
 
   '@oslojs/encoding@1.1.0': {}
 
-  '@rollup/pluginutils@5.1.4(rollup@4.43.0)':
+  '@rollup/pluginutils@5.2.0(rollup@4.43.0)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
@@ -2557,7 +2557,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.9.3(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0):
+  astro@5.10.0(@types/node@20.19.1)(rollup@4.43.0)(typescript@5.6.3)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
@@ -2565,7 +2565,7 @@ snapshots:
       '@astrojs/telemetry': 3.3.0
       '@capsizecss/unpack': 2.4.0
       '@oslojs/encoding': 1.1.0
-      '@rollup/pluginutils': 5.1.4(rollup@4.43.0)
+      '@rollup/pluginutils': 5.2.0(rollup@4.43.0)
       acorn: 8.15.0
       aria-query: 5.3.2
       axobject-query: 4.1.0
@@ -2617,9 +2617,9 @@ snapshots:
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
-      zod: 3.25.64
-      zod-to-json-schema: 3.24.5(zod@3.25.64)
-      zod-to-ts: 1.2.0(typescript@5.6.3)(zod@3.25.64)
+      zod: 3.25.67
+      zod-to-json-schema: 3.24.5(zod@3.25.67)
+      zod-to-ts: 1.2.0(typescript@5.6.3)(zod@3.25.67)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -4156,15 +4156,15 @@ snapshots:
 
   zimmerframe@1.1.2: {}
 
-  zod-to-json-schema@3.24.5(zod@3.25.64):
+  zod-to-json-schema@3.24.5(zod@3.25.67):
     dependencies:
-      zod: 3.25.64
+      zod: 3.25.67
 
-  zod-to-ts@1.2.0(typescript@5.6.3)(zod@3.25.64):
+  zod-to-ts@1.2.0(typescript@5.6.3)(zod@3.25.67):
     dependencies:
       typescript: 5.6.3
-      zod: 3.25.64
+      zod: 3.25.67
 
-  zod@3.25.64: {}
+  zod@3.25.67: {}
 
   zwitch@2.0.4: {}
