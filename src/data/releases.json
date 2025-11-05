@@ -231,8 +231,9 @@
   {
     "framework": "TanStack Start",
     "latest": {
-      "version": "2",
-      "status": "arriving"
+      "version": "1",
+      "status": "arriving",
+      "date": "????-??-??"
     },
     "upcoming": null
   },
