@@ -6,19 +6,23 @@
       "status": "arrived",
       "date": "2024-03-14"
     },
-    "upcoming": null
+    "upcoming": {
+      "version": "2",
+      "status": "arrived",
+      "date": "2025-11-03"
+    }
   },
   {
     "framework": "Angular",
     "latest": {
-      "version": "19",
-      "status": "arrived",
-      "date": "2024-11-19"
-    },
-    "upcoming": {
       "version": "20",
       "status": "arriving",
       "date": "2025-05-26"
+    },
+    "upcoming": {
+      "version": "21",
+      "status": "arriving",
+      "date": "2025-11-20"
     }
   },
   {
@@ -92,14 +96,14 @@
   {
     "framework": "Next.js",
     "latest": {
-      "version": "14",
-      "status": "arrived",
-      "date": "2023-10-30"
-    },
-    "upcoming": {
       "version": "15",
       "status": "arrived",
       "date": "2024-10-21"
+    },
+    "upcoming": {
+      "version": "16",
+      "status": "arrived",
+      "date": "2025-10-21"
     }
   },
   {
@@ -111,8 +115,8 @@
     },
     "upcoming": {
       "version": "4",
-      "status": "delayed",
-      "date": "2024-06-14"
+      "status": "arrived",
+      "date": "2025-07-15"
     }
   },
   {
@@ -225,16 +229,26 @@
     }
   },
   {
+    "framework": "TanStack Start",
+    "latest": {
+      "version": "1",
+      "status": "arriving",
+      "date": "????-??-??"
+    },
+    "upcoming": null
+  },
+
+  {
     "framework": "Vite",
     "latest": {
-      "version": "5",
-      "status": "arrived",
-      "date": "2023-11-16"
-    },
-    "upcoming": {
       "version": "6",
       "status": "arrived",
       "date": "2024-11-26"
+    },
+    "upcoming": {
+      "version": "7",
+      "status": "arrived",
+      "date": "2025-06-24"
     }
   },
   {
