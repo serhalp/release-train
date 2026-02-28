@@ -14,12 +14,12 @@
     "test": "pnpm run check && pnpm run build"
   },
   "dependencies": {
-    "@astrojs/svelte": "^7.0.0",
-    "astro": "^5.0.0",
+    "@astrojs/svelte": "^8.0.0-beta.3",
+    "astro": "^6.0.0-beta.17",
     "svelte": "^5.0.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "^0.9.7-beta.1",
     "@types/node": "^20.2.5",
     "prettier": "^3.0.0",
     "prettier-plugin-astro": "^0.14.0",
