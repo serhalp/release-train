@@ -38,7 +38,7 @@ importers:
         version: 3.5.1(prettier@3.8.1)(svelte@5.55.0)
       svelte-check:
         specifier: ^4.0.5
-        version: 4.4.6(picomatch@4.0.4)(svelte@5.55.0)(typescript@5.6.3)
+        version: 4.4.7(picomatch@4.0.4)(svelte@5.55.0)(typescript@5.6.3)
 
 packages:
 
@@ -1824,8 +1824,8 @@ packages:
   suf-log@2.5.3:
     resolution: {integrity: sha512-KvC8OPjzdNOe+xQ4XWJV2whQA0aM1kGVczMQ8+dStAO6KfEB140JEVQ9dE76ONZ0/Ylf67ni4tILPJB41U0eow==}
 
-  svelte-check@4.4.6:
-    resolution: {integrity: sha512-kP1zG81EWaFe9ZyTv4ZXv44Csi6Pkdpb7S3oj6m+K2ec/IcDg/a8LsFsnVLqm2nxtkSwsd5xPj/qFkTBgXHXjg==}
+  svelte-check@4.4.7:
+    resolution: {integrity: sha512-JRafFTRmaPUOqmri4u1WuIKgBLiHi6wIaB57i99pmHq5BAc3ioIpzdUN/RX32ij9GhI6ALMHKvnVxu68sFZlag==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -2336,7 +2336,7 @@ snapshots:
 
   '@astrojs/svelte@8.0.5(@types/node@24.12.0)(astro@6.1.9(@types/node@24.12.0)(rollup@4.55.1)(typescript@5.6.3)(yaml@2.8.2))(esbuild@0.27.7)(svelte@5.55.0)(typescript@5.6.3)(yaml@2.8.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))
+      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.55.0)(vite@8.0.9(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))
       astro: 6.1.9(@types/node@24.12.0)(rollup@4.55.1)(typescript@5.6.3)(yaml@2.8.2)
       svelte: 5.55.0
       svelte2tsx: 0.7.53(svelte@5.55.0)(typescript@5.6.3)
@@ -2881,19 +2881,19 @@ snapshots:
 
   '@sveltejs/vite-plugin-svelte-inspector@5.0.2(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2)))(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))
+      '@sveltejs/vite-plugin-svelte': 6.2.4(svelte@5.55.0)(vite@8.0.9(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))
       obug: 2.1.1
       svelte: 5.55.0
       vite: 8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2)
 
-  '@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))':
+  '@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.55.0)(vite@8.0.9(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))':
     dependencies:
       '@sveltejs/vite-plugin-svelte-inspector': 5.0.2(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2)))(svelte@5.55.0)(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
       svelte: 5.55.0
-      vite: 8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2)
+      vite: 8.0.9(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2)
       vitefu: 1.1.3(vite@8.0.8(@types/node@24.12.0)(esbuild@0.27.7)(yaml@2.8.2))
 
   '@tybys/wasm-util@0.10.1':
@@ -4229,7 +4229,7 @@ snapshots:
     dependencies:
       s.color: 0.0.15
 
-  svelte-check@4.4.6(picomatch@4.0.4)(svelte@5.55.0)(typescript@5.6.3):
+  svelte-check@4.4.7(picomatch@4.0.4)(svelte@5.55.0)(typescript@5.6.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
